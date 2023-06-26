@@ -19,12 +19,19 @@ ChildApp offers a range of learning and playing activities to engage children wh
 
 ## Screenshots
 ![Main Page](https://github.com/busraacr/ChildApp/assets/121236518/a2573a49-16ed-45d2-8664-ebdf464e3229)
+
 ![Menu](https://github.com/busraacr/ChildApp/assets/121236518/dcf96bb9-9ecc-4525-8ab4-b7a402453298)
+
 ![Activity Menu](https://github.com/busraacr/ChildApp/assets/121236518/962e1379-0703-40d4-9159-e38723abd995)
+
 ![Days Game](https://github.com/busraacr/ChildApp/assets/121236518/a30526be-f8f9-4eff-84ec-1c4481263cc3)
+
 ![Directions](https://github.com/busraacr/ChildApp/assets/121236518/ce16bd3d-df3c-4076-a16f-975a6bb58dac)
+
 ![Seasons](https://github.com/busraacr/ChildApp/assets/121236518/abf70735-dec9-4438-8455-172d10d6ac09)
+
 ![Similarity Game](https://github.com/busraacr/ChildApp/assets/121236518/616e7978-be6c-4597-bd5b-4d6216e008a9)
+
 ![Multiplication](https://github.com/busraacr/ChildApp/assets/121236518/cf42009a-753c-4150-a36e-647e197b7ef4)
 
 
