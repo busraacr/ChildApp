@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/seasons_scrollview"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_back"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/instruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/cherry_swash"
+            android:text="@string/scroll_to_learn"
+            android:textColor="#4A306D"
+            android:textSize="48sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/Spring"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="96dp"
+            android:layout_marginEnd="212dp"
+            android:contentDescription="@string/spring_side_of_the_tree"
+            android:onClick="showSpringInfo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/instruction"
+            app:srcCompat="@drawable/spring1" />
+
+        <ImageView
+            android:id="@+id/Summer"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_marginStart="212dp"
+            android:layout_marginTop="96dp"
+            android:layout_marginEnd="12dp"
+            android:contentDescription="@string/summer_side_of_the_tree"
+            android:onClick="showSummerInfo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/instruction"
+            app:srcCompat="@drawable/summer1" />
+
+
+        <ImageView
+            android:id="@+id/Winter"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="295dp"
+            android:layout_marginEnd="212dp"
+            android:contentDescription="@string/winter_side_of_the_tree"
+            android:onClick="showWinterInfo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/instruction"
+            app:srcCompat="@drawable/winter1" />
+
+
+        <ImageView
+            android:id="@+id/Autumn"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_marginStart="212dp"
+            android:layout_marginTop="295dp"
+            android:layout_marginEnd="12dp"
+            android:contentDescription="@string/autumn_side_of_the_tree"
+            android:onClick="showAutumnInfo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/instruction"
+            app:srcCompat="@drawable/autumn1"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageView
+            android:id="@+id/SpringInfo"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="750dp"
+            android:contentDescription="@string/s"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/instruction"
+            app:srcCompat="@drawable/spring" />
+
+        <TextView
+            android:id="@+id/txtSpring"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/cherry_swash"
+            android:text="@string/spring"
+            android:textColor="#4A306D"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toTopOf="@+id/SpringInfo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/cherry_swash"
+            android:gravity="center"
+            android:text="@string/spring_marks_the_beginning_of_the_blooming_of_flowers_the_temperatures_are_slightly_chilly_and_the_daylight_hours_become_longer_than_they_were_in_winter_it_may_also_be_windy_or_chilly_sometimes"
+            android:textColor="#4A306D"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SpringInfo" />
+
+        <ImageView
+            android:id="@+id/SummerInfo"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="300dp"
+            android:contentDescription="@string/sm"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:srcCompat="@drawable/summer" />
+
+        <TextView
+            android:id="@+id/txtSummer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/cherry_swash"
+            android:text="@string/summer"
+            android:textColor="#4A306D"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toTopOf="@+id/SummerInfo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/cherry_swash"
+            android:gravity="center"
+            android:text="@string/summer_season_is_when_the_temperature_increases_and_it_becomes_hot_people_enjoy_cool_breezes_and_ice_creams_to_keep_themselves_cool_during_this_season_it_is_also_the_season_when_you_get_ripe_mangoes"
+            android:textColor="#4A306D"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SummerInfo" />
+
+        <ImageView
+            android:id="@+id/AutumnInfo"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="300dp"
+            android:contentDescription="@string/a"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            app:srcCompat="@drawable/autumn" />
+
+        <TextView
+            android:id="@+id/txtAutumn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/cherry_swash"
+            android:text="@string/autumn"
+            android:textColor="#4A306D"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toTopOf="@+id/AutumnInfo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/cherry_swash"
+            android:gravity="center"
+            android:text="@string/autumn_marks_the_transition_towards_winter_animals_go_into_hibernation_and_the_trees_start_shedding_their_leaves_in_preparation_for_winter_the_days_become_shorter_and_the_temperatures_become_chilly"
+            android:textColor="#4A306D"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/AutumnInfo" />
+
+        <ImageView
+            android:id="@+id/WinterInfo"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="300dp"
+            android:contentDescription="@string/w"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            app:srcCompat="@drawable/winter" />
+
+        <TextView
+            android:id="@+id/txtWinter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/cherry_swash"
+            android:text="@string/winter"
+            android:textColor="#4A306D"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toTopOf="@+id/WinterInfo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/cherry_swash"
+            android:gravity="center"
+            android:text="@string/winter_is_the_white_season_the_temperature_becomes_very_cold_and_the_daylight_becomes_even_less_in_some_countries_the_sun_sets_before_4_pm_it_also_snows_in_some_places"
+            android:textColor="#4A306D"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/WinterInfo" />
+
+        <ImageView
+            android:id="@+id/up_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="100dp"
+            android:contentDescription="up to home"
+            android:onClick="upPage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10"
+            app:srcCompat="@android:drawable/ic_menu_upload" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

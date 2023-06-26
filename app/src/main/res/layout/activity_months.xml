@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MonthsActivity">
+
+    <Button
+        android:id="@+id/month7"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="143dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#E69A64"
+        android:text="@string/_7_month"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView13" />
+
+    <Button
+        android:id="@+id/month8"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#ED612C"
+        android:text="@string/_8_month"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/month7" />
+
+    <TextView
+        android:id="@+id/infoText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#89CD70"
+        android:fontFamily="@font/akaya_telivigala"
+        android:gravity="center"
+        android:text="@string/click_buttons_to_learn_months"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="380dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/months2" />
+
+    <Button
+        android:id="@+id/month12"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/hotPink"
+        android:text="@string/_12_month"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/month11" />
+
+    <Button
+        android:id="@+id/month11"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#71DC76"
+        android:text="@string/_11_month"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/month10" />
+
+    <Button
+        android:id="@+id/month9"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#B280E4"
+        android:text="@string/_9_month"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/month8" />
+
+    <Button
+        android:id="@+id/month10"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/dodgerBlue"
+        android:text="@string/_10_month"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/month9" />
+
+    <Button
+        android:id="@+id/month6"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="#E69A64"
+        android:text="@string/_6_month"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/month5" />
+
+    <Button
+        android:id="@+id/month1"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="143dp"
+        android:backgroundTint="@color/hotPink"
+        android:text="@string/_1_month"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView13" />
+
+    <Button
+        android:id="@+id/month5"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="#ED612C"
+        android:text="@string/_5_month"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/month4" />
+
+    <Button
+        android:id="@+id/month3"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="@color/dodgerBlue"
+        android:text="@string/_3_month"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/month2" />
+
+    <Button
+        android:id="@+id/month4"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="#B280E4"
+        android:text="@string/_4_month"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/month3" />
+
+    <Button
+        android:id="@+id/month2"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="#71DC76"
+        android:text="@string/_2_month"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/month1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

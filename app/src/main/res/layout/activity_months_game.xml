@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background = "@color/background"
+        tools:context=".MonthsGameActivity">
+
+        <EditText
+            android:id="@+id/input12"
+            android:layout_width="86dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="@string/number"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgMay"
+            app:layout_constraintTop_toBottomOf="@+id/input11" />
+
+        <EditText
+            android:id="@+id/input11"
+            android:layout_width="86dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="@string/number"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgJuly"
+            app:layout_constraintTop_toBottomOf="@+id/input10" />
+
+        <EditText
+            android:id="@+id/input10"
+            android:layout_width="86dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="@string/number"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgMarch"
+            app:layout_constraintTop_toBottomOf="@+id/input9" />
+
+        <EditText
+            android:id="@+id/input9"
+            android:layout_width="86dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="@string/number"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgNovember"
+            app:layout_constraintTop_toBottomOf="@+id/input8" />
+
+        <EditText
+            android:id="@+id/input8"
+            android:layout_width="86dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="@string/number"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgSeptember"
+            app:layout_constraintTop_toBottomOf="@+id/input7" />
+
+        <EditText
+            android:id="@+id/input7"
+            android:layout_width="86dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="@string/number"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgAugust"
+            app:layout_constraintTop_toBottomOf="@+id/input6" />
+
+        <EditText
+            android:id="@+id/input6"
+            android:layout_width="86dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="@string/number"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgApril"
+            app:layout_constraintTop_toBottomOf="@+id/input5" />
+
+        <EditText
+            android:id="@+id/input5"
+            android:layout_width="86dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="@string/number"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgDecember"
+            app:layout_constraintTop_toBottomOf="@+id/input4" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/ino_text"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:hint="@string/number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgOctober"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/october"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16"
+            app:srcCompat="@drawable/m10" />
+
+        <ImageView
+            android:id="@+id/imgFebruary"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/february"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgOctober"
+            app:srcCompat="@drawable/m2" />
+
+        <ImageView
+            android:id="@+id/imgJune"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/june"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgFebruary"
+            app:srcCompat="@drawable/m6" />
+
+        <ImageView
+            android:id="@+id/imgJanuary"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/january"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgJune"
+            app:srcCompat="@drawable/m1" />
+
+        <ImageView
+            android:id="@+id/imgDecember"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/december"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgJanuary"
+            app:srcCompat="@drawable/m12" />
+
+        <ImageView
+            android:id="@+id/imgApril"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/april"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgDecember"
+            app:srcCompat="@drawable/m4" />
+
+        <ImageView
+            android:id="@+id/imgAugust"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/august"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgApril"
+            app:srcCompat="@drawable/m8" />
+
+        <ImageView
+            android:id="@+id/imgSeptember"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/september"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgAugust"
+            app:srcCompat="@drawable/m9" />
+
+        <ImageView
+            android:id="@+id/imgNovember"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/november"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgSeptember"
+            app:srcCompat="@drawable/m11" />
+
+        <ImageView
+            android:id="@+id/imgMarch"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/march"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgNovember"
+            app:srcCompat="@drawable/m3" />
+
+        <ImageView
+            android:id="@+id/imgJuly"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/july"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgMarch"
+            app:srcCompat="@drawable/m7" />
+
+        <ImageView
+            android:id="@+id/imgMay"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/may"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgJuly"
+            app:srcCompat="@drawable/m5" />
+
+        <EditText
+            android:id="@+id/input1"
+            android:layout_width="86dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="@string/number"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgOctober"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <EditText
+            android:id="@+id/input2"
+            android:layout_width="86dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="@string/number"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgFebruary"
+            app:layout_constraintTop_toBottomOf="@+id/input1" />
+
+        <EditText
+            android:id="@+id/input3"
+            android:layout_width="86dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="@string/number"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgJune"
+            app:layout_constraintTop_toBottomOf="@+id/input2" />
+
+        <EditText
+            android:id="@+id/input4"
+            android:layout_width="86dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="@string/number"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgJanuary"
+            app:layout_constraintTop_toBottomOf="@+id/input3" />
+
+        <Button
+            android:id="@+id/checkButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="CHECK"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgMay" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
