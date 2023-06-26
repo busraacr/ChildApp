@@ -17,7 +17,8 @@ ChildApp offers a range of learning and playing activities to engage children wh
 - The application needs to have a learning part and a playing part.
 - Each time the user earns a point, positive feedback is given.
 
-## Screenshots![Main Page](https://github.com/busraacr/ChildApp/assets/121236518/a2573a49-16ed-45d2-8664-ebdf464e3229)
+## Screenshots
+![Main Page](https://github.com/busraacr/ChildApp/assets/121236518/a2573a49-16ed-45d2-8664-ebdf464e3229)
 ![Menu](https://github.com/busraacr/ChildApp/assets/121236518/dcf96bb9-9ecc-4525-8ab4-b7a402453298)
 ![Activity Menu](https://github.com/busraacr/ChildApp/assets/121236518/962e1379-0703-40d4-9159-e38723abd995)
 ![Days Game](https://github.com/busraacr/ChildApp/assets/121236518/a30526be-f8f9-4eff-84ec-1c4481263cc3)
